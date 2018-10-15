@@ -1,0 +1,12 @@
+<h1 style="text-align: center; font-size: 250%;">A List of Publicly Available APIs</h1>
+<details class="center" ng-container *ngFor='let entry of dataApi.entries'>
+  <summary>{{entry.API}}</summary>
+    <ul class="center">
+      <li>Category: {{entry.Category}}</li>
+      <li>Description: {{entry.Description}} </li>
+      <li>Authentication Needed: {{entry.Auth}} </li>
+      <li> Link: <a href="{{entry.Link}}" target= "_blank">{{entry.Link}}</a></li>
+      <li>Uses Cors? {{entry.Cors}}</li>
+      <li>Uses HTTPS? {{entry.HTTPS}}</li>
+    </ul>
+</details>
