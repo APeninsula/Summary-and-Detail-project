@@ -1,6 +1,8 @@
-# MyApp
+# Summary ANd Detail Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+
+Made to basically get a sense of how an angular application works. Currently not very styled, will come back to this later to give it more oomf.
 
 ## Development server
 
